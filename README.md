@@ -1,4 +1,7 @@
-hetnet
-======
+Heterosis Network Simulation Package
+====================================
 
-Framework for a network model of heterosis
+This project is a simulation study of Heterosis
+
+It includes a random network model as well as 
+hybridization methods and expression simulations
