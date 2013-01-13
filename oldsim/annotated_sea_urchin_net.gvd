@@ -1,0 +1,458 @@
+node Maternal Ets
+cluster Maternal Inputs
+edge r11pm
+
+node Mat SoxB1
+cluster Maternal Inputs
+edge Pmar1
+edge Wnt8
+edge Blimp1/Krox
+edge z13
+edge Hox11/13b
+edge Eve
+
+node Mat Wnt6
+cluster Maternal Inputs
+edge Pmar1
+edge Wnt8
+edge Blimp1/Krox
+edge z13
+edge Hox11/13b
+edge Eve
+
+node Mat cB
+cluster Maternal Inputs
+edge Pmar1
+edge Wnt8
+edge Blimp1/Krox
+edge z13
+edge Hox11/13b
+edge Eve
+
+node Mat Otx
+cluster Maternal Inputs
+edge Pmar1
+edge Otx
+edge Blimp1/Krox
+
+node Mat G-cadherin
+cluster Maternal Inputs
+
+node Mat Notch
+cluster Maternal Inputs
+edge HesC
+edge Gcm
+edge GataE
+
+node Hnf6
+cluster Endoderm
+cluster Mesoderm
+cluster Endomesoderm
+cluster PMC
+edge Sm50
+edge Ficolin
+edge GataC
+
+node RhoA
+cluster Endomesoderm
+edge Pmar1
+edge Wnt8
+edge Blimp1/Krox
+edge z13
+edge Hox11/13b
+edge Eve
+
+node SoxC
+cluster PMC
+edge SoxC
+
+node SoxB1
+cluster Endoderm
+cluster Endomesoderm
+edge SoxB1
+edge Pmar1
+edge Wnt8
+edge Blimp1/Krox
+edge z13
+edge Hox11/13b
+edge Eve
+
+node Wnt8
+cluster Veg1Endo
+cluster Endoderm
+cluster Mesoderm
+cluster Endomesoderm
+cluster PMC
+edge Pmar1
+edge Wnt8
+edge Blimp1/Krox
+edge z13
+edge Hox11/13b
+edge Eve
+
+node Activin B
+cluster PMC
+edge RhoA
+
+node ES
+cluster PMC
+edge RhoA
+
+node Pmar1
+cluster PMC
+edge HesC
+
+node HesC
+cluster Endoderm
+cluster Mesoderm
+cluster Endomesoderm
+cluster PMC
+edge Pmar1
+edge ES
+edge r11pm
+edge TBr
+edge Ets1
+edge Alx1
+
+node Blimp1/Krox
+cluster Veg1Endo
+cluster Endoderm
+cluster Endomesoderm
+cluster PMC
+edge Otx
+edge GataE
+edge FoxA
+edge Eve
+edge Hox11/13b
+edge Wnt8
+edge Notch
+edge HesC
+
+node Otx
+cluster Endoderm
+cluster Mesoderm
+cluster Endomesoderm
+edge Blimp1/Krox
+edge Bra
+edge FoxA
+edge GataE
+
+node r11pm
+cluster Mesoderm
+cluster PMC
+edge HesC
+edge Gcm
+edge GataE
+
+node FoxN2/3
+cluster PMC
+edge Nrl
+
+node Notch
+cluster Endoderm
+cluster Mesoderm
+edge HesC
+edge Gcm
+edge GataE
+
+node Bra
+cluster Veg1Endo
+cluster Endoderm
+edge Apobec
+edge CAPK
+edge Dpt
+edge Pks
+edge Kakapo
+edge OrCT
+edge Gelsolin
+edge Nrl
+edge Tgif
+edge FoxA
+edge Hnf1
+edge FoxP
+
+node FoxA
+cluster Veg1Endo
+cluster Endoderm
+cluster Mesoderm
+cluster Endomesoderm
+edge FoxA
+edge Gcm
+edge Hh
+
+node GataE
+cluster Veg1Endo
+cluster Endoderm
+cluster Mesoderm
+edge Hnf1
+edge FoxA
+edge Bra
+edge Blimp1/Krox
+
+node Hnf1
+cluster Endoderm
+
+node FoxP
+cluster Endoderm
+
+node Alx1
+cluster Mesoderm
+cluster PMC
+edge Alx1
+edge Sm27
+edge Sm50
+edge Msp130
+edge Msp-L
+
+node Ets1
+cluster Mesoderm
+cluster Endomesoderm
+cluster PMC
+edge r11pm
+edge TBr
+edge Alx1
+edge Tgif
+edge Hex
+edge Erg
+edge Sm27
+edge Sm50
+edge Msp130
+edge Msp-L
+edge Ficolin
+edge CyP
+
+node TBr
+cluster Mesoderm
+cluster PMC
+edge Erg
+edge FoxB
+edge Msp130
+
+node Nrl
+cluster PMC
+edge HesC
+edge Gcm
+edge GataE
+
+node Gcm
+cluster Mesoderm
+cluster PMC
+edge Gcm
+edge z166
+edge Six1/2
+edge Alx1
+edge GataC
+edge Pks
+edge Dpt
+edge SuTx
+edge FvMo1,2,3
+
+node GataC
+cluster Mesoderm
+edge GataC
+
+node Brn1/2/4
+cluster Endoderm
+edge Blimp1/Krox
+edge Endo16
+
+node Myc
+cluster Endoderm
+edge Myc
+edge Tgif
+edge Elk
+edge Apobec
+
+node Elk
+cluster Endoderm
+
+node Tel
+cluster PMC
+edge Tel
+edge Sm27
+edge Sm50
+
+node Erg
+cluster Mesoderm
+cluster PMC
+edge Hex
+edge Tgif
+edge TBr
+edge FoxO
+edge Sm27
+edge Sm50
+edge Msp130
+edge Msp-L
+edge Ficolin
+
+node Hex
+cluster Mesoderm
+cluster PMC
+edge Erg
+edge Tgif
+edge FoxO
+edge VEGFR
+edge Snail
+edge Sm27
+edge Sm50
+edge Msp130
+edge Msp-L
+edge Ficolin
+
+node Tgif
+cluster Endoderm
+cluster PMC
+edge Tgif
+edge Hex
+edge FoxO
+edge Nrl
+edge Alx1
+
+node Six1/2
+cluster Mesoderm
+
+node z166
+cluster Mesoderm
+
+node L1
+cluster PMC
+edge Sm27
+edge Sm50
+edge Msp-L
+edge Sm30
+
+node Not
+cluster Mesoderm
+
+node Eve
+cluster Veg1Endo
+cluster Endoderm
+cluster Mesoderm
+cluster Endomesoderm
+edge Hox11/13b
+edge Blimp1/Krox
+
+node VEGF
+cluster Endoderm
+edge Sm27
+edge Sm50
+edge Msp-L
+edge Sm30
+
+node Hox11/13b
+cluster Veg1Endo
+cluster Endoderm
+cluster Mesoderm
+cluster Endomesoderm
+edge Eve
+edge Apobec
+edge OrCT
+edge GataE
+edge FoxA
+
+node Dac
+cluster Endoderm
+edge Dac
+edge Elk
+edge OrCT
+edge Apobec
+
+node Dri
+cluster PMC
+edge Sm27
+edge Sm50
+edge CyP
+edge FoxB
+edge VEGFR
+edge ES
+
+node Snail
+cluster Mesoderm
+edge G-cadherin
+
+node FoxB
+cluster PMC
+edge Msp130
+edge FoxB
+
+node FoxO
+cluster PMC
+
+node VEGFR
+cluster PMC
+edge Sm27
+edge Sm50
+edge Msp-L
+edge Sm30
+
+node Hh
+cluster Endoderm
+
+node Sm27
+cluster Skel
+
+node Sm50
+cluster Skel
+
+node Msp130
+cluster Skel
+
+node Msp-L
+cluster Skel
+
+node FvMo1,2,3
+cluster Mesoderm Peripheral
+
+node SuTx
+cluster Mesoderm Peripheral
+
+node CAPK
+cluster Mesoderm Peripheral
+
+node Dpt
+cluster Mesoderm Peripheral
+
+node Pks
+cluster Mesoderm Peripheral
+
+node Apobec
+cluster Endoderm Peripheral
+cluster Mesoderm Peripheral
+
+node Kakapo
+cluster Endoderm Peripheral
+cluster Mesoderm Peripheral
+
+node OrCT
+cluster Endoderm Peripheral
+cluster Mesoderm Peripheral
+
+node Gelsolin
+cluster Endoderm Peripheral
+cluster Mesoderm Peripheral
+
+node Endo16
+cluster Endoderm Peripheral
+
+node Sm30
+cluster Skel
+
+node G-cadherin
+cluster Skel
+
+node Ficolin
+cluster Skel
+
+node CyP
+cluster Skel
+
+node z13
+cluster Endoderm
+cluster Endomesoderm
+edge Brn1/2/4
+
+node Nrl
+cluster Mesoderm
+edge HesC
+edge Gcm
+edge GataE
