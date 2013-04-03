@@ -1,7 +1,9 @@
 Heterosis Network Simulation Package
 ====================================
 
-This project is a simulation study of Heterosis
+This project is a simulation study of heterosis; the increase of evolutionary fitness of hybrid progeny in comparison to the two inbred parents.
+Simulations were conducted on various network models. These network models represented genetic networks where each node 
+
 
 It includes a random network model as well as 
 hybridization methods and expression simulations
@@ -15,8 +17,8 @@ packages
      + ER-Graph
      + ModGraph - C clusters, P likelihood of edges between clusters, Q edges
        within cluster
-     + BA-TF Graph - BA model with extra step for triad formation to promote more clustering between nodes.
-     + diploid BA-model
+     + BA-TF Graph - BA model with extra step for triad formation to promote
+       more clustering between nodes.
 2. dynamics, includes different heterosis models of dynamics on transcription
    factor networks
    - includes:
