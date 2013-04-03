@@ -25,3 +25,7 @@ packages
      + differential 
 3. graphdiff, a set of tools to plot and compare performance of varying graphs
    and dynamics models for measuring performance under hybrid vigor
+
+4. real-world networks
+   - includes graph data generated from real world regulatory networks such as 
+     the Sea Urchin transcriptional network
