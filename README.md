@@ -15,8 +15,8 @@ packages
      + ER-Graph
      + ModGraph - C clusters, P likelihood of edges between clusters, Q edges
        within cluster
-     + BA-TF Graph - BA model with extra step for triad formation to promote
-       more clustering between nodes.
+     + BA-TF Graph - BA model with extra step for triad formation to promote more clustering between nodes.
+     + diploid BA-model
 2. dynamics, includes different heterosis models of dynamics on transcription
    factor networks
    - includes:
